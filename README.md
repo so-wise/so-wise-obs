@@ -1,5 +1,5 @@
-# so-wise-obs
-Observational suite used to constrain SO-WISE products
+# SO-WISE observational suite 
+## Derived from B-SOSE, SO-CHIC, and others
 
 Full B-SOSE data on BAS HPC:
 ```
@@ -7,7 +7,7 @@ Full B-SOSE data on BAS HPC:
 ```
 Full SO-CHIC data on BAS HPC:
 ```
-/data/expose/so-wise/so-wise-obs/data_so-chic
+/data/expose/so-wise/so-wise-obs/data_so-chic/
 ```
 
 A state estimate is constrained by a suite of observations. Here I'll record my progress with preparing the observational suite for use in the state estimation framework. 
