@@ -1,15 +1,6 @@
 # SO-WISE observational suite 
 ## Derived from B-SOSE, SO-CHIC, and others
 
-Full B-SOSE data on BAS HPC:
-```
-/data/expose/so-wise/so-wise-obs/data_bsose/datasets/
-```
-Full SO-CHIC data on BAS HPC:
-```
-/data/expose/so-wise/so-wise-obs/data_so-chic/
-```
-
 A state estimate is constrained by a suite of observations. Here I'll record my progress with preparing the observational suite for use in the state estimation framework. 
 
 MITgcm uses MITprof to create profile collections, which are then used by the state estimation packages to constrain the numerical solution. So as a first step, we have to prepare the data to be read and processed by MITprof.
