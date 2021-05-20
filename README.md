@@ -14,7 +14,7 @@ The Scripps group uses the following procedure to prepare the data:
 - Preprocess each profile onto those N levels, using bins +/- 2m. Use nearest neighbor linear interpolation to bin the observations.
 - Look at each profile manually, checking for errors.
 - Call MITprof and write the collection out to NetCDF
-- Something else (?) reads the NetCDF then assigns the weights
+- Something else reads the NetCDF then assigns the weights
 - Here is the master list for which datasets have been processed and updated: [http://sose.ucsd.edu/RESEARCH/Master.htm](http://sose.ucsd.edu/RESEARCH/Master.htm)
 
 ### 1.2: Procedure for moorings
@@ -24,11 +24,11 @@ Use the average pressure on each instrument to look for drifts
 If high-frequency temporal data, pre-average to daily data
 
 ### 1.3: Complete set of constraints used by B-SOSE
-Matt very kindly provided the complete set of constraints. How cool! Here is everything:
+Constraints used in B-SOSE:
 
 http://sose.ucsd.edu/SO6/DATA/
 
-And here is the example of Argo, with weights and things. We can look in the Weddell Sea:
+Example of Argo data, with weights:
 
 http://sose.ucsd.edu/SO6/ITER133/PROF/
 
